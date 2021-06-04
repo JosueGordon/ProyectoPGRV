@@ -27,6 +27,10 @@ namespace Proyecto_Gestion_Alquiler.Controllers
         {
             return View();
         }
+        public IActionResult user_Registration()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
