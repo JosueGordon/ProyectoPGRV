@@ -23,6 +23,11 @@ namespace Proyecto_Gestion_Alquiler.Controllers
             return View();
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
